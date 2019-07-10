@@ -19,19 +19,55 @@ map > area {
 }
 .ts0 {
   font-family: Tahoma;
-  font-size: 22pt;
-  font-weight: bold;
 }
 .ts1 {
   font-family: Tahoma;
+  font-size: 16pt;
+  font-weight: bold;
+}
+.hs0 {
+  font-family: Tahoma;
+  font-size: 18pt;
+  text-decoration: none;
+  color: Blue;
 }
 .ps0 {
   text-align: center;
 }
 .ps1 {
-  text-align: center;
   font-size: 11pt;
 }
 .ps2 {
+  text-align: center;
   font-size: 11pt;
+}
+.ps3 {
+  text-align: right;
+}
+.tbl0 {
+  border-collapse: collapse;
+  border-style: hidden;
+  border-color: transparent;
+}
+.tbl0 > tbody > tr.row0 {
+  border-style: hidden;
+  border-color: transparent;
+}
+.tbl0 > tbody > tr > td.cell0 {
+  width: 174pt;
+  vertical-align: top;
+  border-style: hidden;
+  border-color: transparent;
+}
+.tbl0 > tbody > tr > td.cell1 {
+  width: 43.4975cm;
+  vertical-align: top;
+  border-style: hidden;
+  border-color: transparent;
+}
+.tbl0 > tbody > tr > td.cell2 {
+  width: 181.5pt;
+  vertical-align: top;
+  border-style: hidden;
+  border-color: transparent;
 }

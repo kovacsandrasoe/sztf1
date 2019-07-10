@@ -29,10 +29,10 @@
   font-weight: normal;
 }
 #popup-box .close-icon {
-  background-image: url('closeicon.png?f2a5e3b8');
+  background-image: url('closeicon.png?e0ebcfdd');
 }
 #popup-box .topicdoc-icon {
-  background: url('docicon.png?f2a5e3b8') no-repeat center center;
+  background: url('docicon.png?e0ebcfdd') no-repeat center center;
 }
 #sorting-popup-menu {
   background-color: White;
@@ -58,13 +58,13 @@
   font-weight: normal;
 }
 #sorting-popup-menu li.menu-item.menu-item-checked span:after {
-  background: url('checkmark.png?f2a5e3b8') no-repeat 0 0;
+  background: url('checkmark.png?e0ebcfdd') no-repeat 0 0;
 }
 #sorting-popup-menu li.menu-item.menu-item-checked.menu-item-hover span:after {
-  background: url('checkmark.png?f2a5e3b8') no-repeat 0 -8px;
+  background: url('checkmark.png?e0ebcfdd') no-repeat 0 -8px;
 }
 #sort-control span.caret {
-  background: url('caret.png?f2a5e3b8') no-repeat 0 0;
+  background: url('caret.png?e0ebcfdd') no-repeat 0 0;
 }
 #toc-tree ul.dynatree-container a {
   font-family: 'Trebuchet MS',Tahoma,Verdana,Arial,sans-serif;
@@ -174,7 +174,7 @@
   font-weight: normal;
 }
 #tabs .ui-tabs-panel {
-  background: url('tab-content.png?f2a5e3b8') repeat-x center top #eee;
+  background: url('tab-content.png?e0ebcfdd') repeat-x center top #eee;
 }
 .text-label {
   font-family: 'Trebuchet MS',Tahoma,Verdana,Arial,sans-serif;
@@ -198,7 +198,7 @@
   padding: 8px 0 0 4px;
 }
 #tabs .ui-widget-header {
-  background: url('tabs-header.png?f2a5e3b8') repeat-x center center #f6a828;
+  background: url('tabs-header.png?e0ebcfdd') repeat-x center center #f6a828;
   border-bottom-color: #e78f08;
 }
 .ui-tabs .ui-tabs-nav li {
@@ -208,15 +208,15 @@
   padding: 6px 6px;
 }
 #tabs .ui-widget-header .ui-state-default {
-  background: url('tab-regular.png?f2a5e3b8') repeat-x center center #f6f6f6;
+  background: url('tab-regular.png?e0ebcfdd') repeat-x center center #f6f6f6;
   border-color: #ccc;
 }
 #tabs .ui-widget-header .ui-state-hover {
-  background: url('tab-active.png?f2a5e3b8') repeat-x center center #fdf5ce;
+  background: url('tab-active.png?e0ebcfdd') repeat-x center center #fdf5ce;
   border-color: #fbcb09;
 }
 #tabs .ui-widget-header .ui-state-active {
-  background: url('tab-selected.png?f2a5e3b8') repeat-x center center White;
+  background: url('tab-selected.png?e0ebcfdd') repeat-x center center White;
   border-color: #fbd850;
 }
 #tabs .ui-tabs-nav {
