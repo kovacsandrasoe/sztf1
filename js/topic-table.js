@@ -1,0 +1,1 @@
+﻿var gTopicTable = [[10,'IDH_Topic10','00: Bevezető','topics/idh-topic10.htm'],[20,'IDH_Topic20','01: Hello world, változók, operátorok','topics/idh-topic20.htm'],[30,'IDH_Topic30','02: Vezérlési szerkezetek','topics/idh-topic30.htm']];

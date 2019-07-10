@@ -1,0 +1,1 @@
+﻿var gAlphaIndex = [['b',0,0],['d',1,1],['f',2,2],['h',3,3],['j',4,4],['o',5,5],['s',6,6],['v',7,8],['w',9,9]];var gWordIndex = [['bevezető',[0],[]],['dfgdfgdfg',[2],[]],['fhfghfhfh',[1],[]],['hello',[1],[]],['jughjghjhgj',[0],[]],['operátorok',[1],[]],['szerkezetek',[2],[]],['vezérlési',[2],[]],['változók',[1],[]],['world',[1],[]]];
