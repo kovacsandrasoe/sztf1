@@ -19,7 +19,19 @@ map > area {
 }
 .ts0 {
   font-family: Tahoma;
+  font-size: 22pt;
+  font-weight: bold;
+}
+.ts1 {
+  font-family: Tahoma;
 }
 .ps0 {
+  text-align: center;
+}
+.ps1 {
+  text-align: center;
+  font-size: 11pt;
+}
+.ps2 {
   font-size: 11pt;
 }

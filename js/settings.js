@@ -3,6 +3,6 @@
 	highlightSearchWordsSingleColor : false,
 	tocOnlyExpandSingleHeading : false,
 	tocAutoExpandOnActivate : false,
-	tocAtimateExpandingCollapsingDuration : 0,
+	tocAtimateExpandingCollapsingDuration : 50,
 	indexFile : 'index.html'
 }
