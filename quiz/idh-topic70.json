@@ -13,7 +13,7 @@
         },
   {
             "question"      :   "Mi lesz az alábbi program kimenete?",
-            "image"         :   "/quiz/alapkod.PNG",
+            "image"         :   "/sztf1/quiz/alapkod.PNG",
             "choices"       :   [
                                     "3",
                                     "6",
