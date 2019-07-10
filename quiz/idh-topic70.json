@@ -12,27 +12,27 @@
             "explanation"   :   "A C++ natív kódra fordul, nincs köztes réteg használat"
         },
   {
-            "question"      :   "Q2: Who is on the two dollar bill?",
-            "image"         :   "http://upload.wikimedia.org/wikipedia/commons/thumb/9/94/US_%242_obverse-high.jpg/320px-US_%242_obverse-high.jpg",
+            "question"      :   "Mi lesz az alábbi program kimenete?",
+            "image"         :   "/quiz/alapkod.PNG",
             "choices"       :   [
-                                    "Thomas Jefferson",
-                                    "Dwight D. Eisenhower",
-                                    "Benjamin Franklin",
-                                    "Abraham Lincoln"
+                                    "3",
+                                    "6",
+                                    "hibát dob",
+                                    "0.80 körüli érték"
                                 ],
-            "correct"       :   "Thomas Jefferson",
-            "explanation"   :   "The two dollar bill is seldom seen in circulation. As a result, some businesses are confused when presented with the note."
+            "correct"       :   "6",
+            "explanation"   :   "34 osztva 7-el = 4 és 6 a maradék"
         },
   {
-            "question"      :   "Q3: What event began on April 12, 1861?",
+            "question"      :   "Ki a legjobb gyakorlatvezető a NIK-en?",
             "image"         :   "",
             "choices"       :   [
-                                    "First manned flight",
-                                    "California became a state",
-                                    "American Civil War began",
-                                    "Declaration of Independence"
+                                    "Kovács András",
+                                    "Dr. habil Szénási Sándor",
+                                    "Janó",
+                                    "Sipos Miklós László"
                                 ],
-            "correct"       :   "American Civil War began",
-            "explanation"   :   "South Carolina came under attack when Confederate soldiers attacked Fort Sumter. The war lasted until April 9th 1865."
+            "correct"       :   "Kovács András",
+            "explanation"   :   "Nem kérdés, hogy Kovács András..."
         }
 ]}
