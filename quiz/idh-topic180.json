@@ -1,0 +1,38 @@
+{"questions":[
+  {
+            "question"      :   "Lekérdezhető-e a for ciklus ciklusváltozójának értéke a cikluson kívül?",
+            "image"         :   "",
+            "choices"       :   [
+                                    "igen",
+                                    "nem",
+                                    "",
+                                    ""
+                                ],
+            "correct"       :   "nem",
+            "explanation"   :   "csak a cikluson belül érhető el"
+        },
+  {
+            "question"      :   "Melyik tömb indexelés hibás egy 10 elemű tömbön?",
+            "image"         :   "",
+            "choices"       :   [
+                                    "tomb[5+4]",
+                                    "tomb[0]",
+                                    "tomb[10]",
+                                    "tomb[tomb.Length-1]"
+                                ],
+            "correct"       :   "tomb[10]",
+            "explanation"   :   "Minden olyan kifejezés jó, amelynek értéke 0..9 közti egész számot ad eredményül"
+        },
+  {
+            "question"      :   "Mit lehet foreach segítségével csinálni?",
+            "image"         :   "",
+            "choices"       :   [
+                                    "Bejárni egy tömböt",
+                                    "Módosítani az eredeti elemet",
+                                    "Elkérni a tömb előző elemét",
+                                    "Lekérdezi az aktuális elem indexét"
+                                ],
+            "correct"       :   "Bejárni egy tömböt",
+            "explanation"   :   "Csak bejárhatjuk a tömböt, egy iteráció - egy elem"
+        }
+]}

@@ -16,7 +16,7 @@ body {
   background: none 0 0 #ddd;
 }
 #hs-content-h {
-  background: none 0 0 #bb6f04;
+  background: none 0 0 #0441ba;
   height: 100%;
   width: 100%;
   display: table;
@@ -37,7 +37,7 @@ body {
   font-weight: normal;
 }
 #hs-content-f {
-  background: none 0 0 #bb6f04;
+  background: none 0 0 #0441ba;
   height: 100%;
   width: 100%;
   display: table;
@@ -68,7 +68,7 @@ body {
     height: 100%;
     width: 100%;
     display: table;
-    background: none 0 0 #bb6f04;
+    background: none 0 0 #0441ba;
   }
   #hs-content-m > div {
     display: table-cell;

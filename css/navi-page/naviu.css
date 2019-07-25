@@ -29,10 +29,10 @@
   font-weight: normal;
 }
 #popup-box .close-icon {
-  background-image: url('closeicon.png?9a2167bd');
+  background-image: url('closeicon.png?b832d9be');
 }
 #popup-box .topicdoc-icon {
-  background: url('docicon.png?9a2167bd') no-repeat center center;
+  background: url('docicon.png?b832d9be') no-repeat center center;
 }
 #sorting-popup-menu {
   background-color: White;
@@ -58,13 +58,13 @@
   font-weight: normal;
 }
 #sorting-popup-menu li.menu-item.menu-item-checked span:after {
-  background: url('checkmark.png?9a2167bd') no-repeat 0 0;
+  background: url('checkmark.png?b832d9be') no-repeat 0 0;
 }
 #sorting-popup-menu li.menu-item.menu-item-checked.menu-item-hover span:after {
-  background: url('checkmark.png?9a2167bd') no-repeat 0 -8px;
+  background: url('checkmark.png?b832d9be') no-repeat 0 -8px;
 }
 #sort-control span.caret {
-  background: url('caret.png?9a2167bd') no-repeat 0 0;
+  background: url('caret.png?b832d9be') no-repeat 0 0;
 }
 #toc-tree ul.dynatree-container a {
   font-family: 'Trebuchet MS',Tahoma,Verdana,Arial,sans-serif;
@@ -91,7 +91,7 @@
 }
 #toc-tree span.dynatree-active a, #toc-tree span.dynatree-active a:hover {
   color: White !important;
-  background-color: #1c94c4 !important;
+  background-color: #b2a2c7 !important;
   text-decoration: none !important;
   font-style: normal !important;
   font-weight: normal !important;
@@ -174,7 +174,7 @@
   font-weight: normal;
 }
 #tabs .ui-tabs-panel {
-  background: url('tab-content.png?9a2167bd') repeat-x center top #eee;
+  background: url('tab-content.png?b832d9be') repeat-x center top #eee;
 }
 .text-label {
   font-family: 'Trebuchet MS',Tahoma,Verdana,Arial,sans-serif;
@@ -198,8 +198,8 @@
   padding: 8px 0 0 4px;
 }
 #tabs .ui-widget-header {
-  background: url('tabs-header.png?9a2167bd') repeat-x center center #f6a828;
-  border-bottom-color: #e78f08;
+  background: none 0 0 #a5a5a5;
+  border-bottom-color: Black;
 }
 .ui-tabs .ui-tabs-nav li {
   margin: 0 2px 0 0;
@@ -208,16 +208,16 @@
   padding: 6px 6px;
 }
 #tabs .ui-widget-header .ui-state-default {
-  background: url('tab-regular.png?9a2167bd') repeat-x center center #f6f6f6;
+  background: url('tab-regular.png?b832d9be') repeat-x center center #f6f6f6;
   border-color: #ccc;
 }
 #tabs .ui-widget-header .ui-state-hover {
-  background: url('tab-active.png?9a2167bd') repeat-x center center #fdf5ce;
-  border-color: #fbcb09;
+  background: none 0 0 #fdf5ce;
+  border-color: #0070c0;
 }
 #tabs .ui-widget-header .ui-state-active {
-  background: url('tab-selected.png?9a2167bd') repeat-x center center White;
-  border-color: #fbd850;
+  background: none 0 0 White;
+  border-color: #0070c0;
 }
 #tabs .ui-tabs-nav {
   font-family: 'Trebuchet MS',Tahoma,Verdana,Arial,sans-serif;
@@ -230,13 +230,13 @@
   font-weight: normal;
 }
 #tabs .ui-widget-header .ui-state-hover a {
-  color: #c77405;
+  color: #0070c0;
   text-decoration: none;
   font-style: normal;
   font-weight: normal;
 }
 #tabs .ui-widget-header .ui-state-active a {
-  color: #eb8f00;
+  color: #0070c0;
   text-decoration: none;
   font-style: normal;
   font-weight: normal;

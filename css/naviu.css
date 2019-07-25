@@ -39,19 +39,19 @@
   font-weight: normal;
 }
 #popup-box .hs-popuplink:focus {
-  color: #c77405;
+  color: #6262C1;
   background-color: #fdf5ce;
   text-decoration: none;
   font-style: normal;
   font-weight: normal;
 }
-#popup-box .hs-popuplink:hover {
-  color: #c77405;
-  background-color: #fdf5ce;
-  text-decoration: none;
-  font-style: normal;
-  font-weight: normal;
-}
+    #popup-box .hs-popuplink:hover {
+        color: #6262C1;
+        background-color: #fdf5ce;
+        text-decoration: none;
+        font-style: normal;
+        font-weight: normal;
+    }
 #sorting-popup-menu {
   background-color: White;
   border-color: #1c94c4;
@@ -78,13 +78,13 @@
   font-weight: normal;
   border-top-color: #b3e9ff;
 }
-#sorting-popup-menu .menu-item:hover {
-  color: #c77405;
-  background-color: #fdf5ce;
-  text-decoration: none;
-  font-style: normal;
-  font-weight: normal;
-}
+    #sorting-popup-menu .menu-item:hover {
+        color: #6262C1;
+        background-color: #fdf5ce;
+        text-decoration: none;
+        font-style: normal;
+        font-weight: normal;
+    }
 #search-box .search-btn {
   background-color: transparent;
 }
@@ -140,11 +140,11 @@
   font-weight: normal;
 }
 #index-tree li.hs-highlight > .hstree-node-cnt .hstree-node-title > a {
-  color: #c77405;
-  background-color: #fdf5ce;
-  text-decoration: none;
-  font-style: normal;
-  font-weight: normal;
+    color: #6262C1;
+    background-color: #fdf5ce;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
 }
 #index-tree .hstree-node-title > a:hover {
   color: #333;
@@ -175,11 +175,11 @@
   font-size: 10pt;
 }
 #search-result-tree li.visited-topic > .hstree-node-cnt .hstree-node-title > a {
-  color: #c77405;
-  background-color: #fdf5ce;
-  text-decoration: none;
-  font-style: normal;
-  font-weight: normal;
+    color: #6262C1;
+    background-color: #fdf5ce;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
 }
 #search-result-tree .hstree-node-title > a {
   color: #333;
@@ -269,10 +269,10 @@
   font-weight: normal;
 }
 #tabs .ui-widget-header .ui-state-hover a {
-  color: #c77405;
-  text-decoration: none;
-  font-style: normal;
-  font-weight: normal;
+    color: #6262C1;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
 }
 #tabs .ui-widget-header .ui-state-active a {
   color: #eb8f00;

@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Fejlesztés a parancssorból</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="HelpSmith 6.4 (Build 17.127)" />
+<style type="text/css" media="screen">
+html {
+  height: 100%;
+}
+body {
+  margin: 4.25pt 4.25pt 4.25pt 4.25pt;
+}
+</style>
+<link type="text/css" href="../css/topics/style.css" rel="stylesheet" />
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../js/settings.js?b832d9be"></script>
+<script type="text/javascript" src="../js/core.js?e3fa3091"></script>
+<script type="text/javascript" src="../js/topic.js?e3fa3091"></script>
+<script type="text/javascript">
+	var topicContext = 80;
+</script>
+</head>
+<body>
+<p><span class="ts3">Fejlesztés a parancssorból</span></p>
+<p class="ps2"><span class="ts1">&nbsp;</span></p>
+<p class="ps2"><span class="ts1">Hogy elkezdhesd a munkád, szükséged van egy megfelelő szoftverre a kódok írásához!</span></p>
+<p class="ps2"><span class="ts1">&nbsp;</span></p>
+<p class="ps2"><span class="ts1">Nagyon fontos megemlíteni, hogy C# nyelvű programok írásához alapesetben két dolog elegendő:</span></p>
+<p class="ps4"><span style="font-size: 14pt; line-height: 0; vertical-align: middle; color: Black">&bull;</span><span style="display: inline-block; width: 18px"></span><span class="ts1">Telepített Microsoft .NET Framework a Windows rendszerű számítógépeden</span></p>
+<p class="ps4"><span style="font-size: 14pt; line-height: 0; vertical-align: middle; color: Black">&bull;</span><span style="display: inline-block; width: 18px"></span><span class="ts1">Egy plain text szövegek írására alkalmas editor (pl: jegyzettömb/notepad, notepad++, stb.)</span></p>
+<p>&nbsp;</p>
+<p class="ps2"><span class="ts1">A .NET keretrendszer tartalmaz egy beépített parancssoros fordítóprogramot, amellyel a kódjaid a számítógép számára ártelmezhető köztes kódra fordulnak!</span></p>
+<p class="ps5"><span class="ts4">Ezt a fordítót itt érheted el: </span><span class="ts5">C:\Windows\Microsoft.NET\Framework\v4.0.30319</span><span class="ts6">&nbsp;</span></p>
+<p class="ps2"><span class="ts1">(Ez függ a telepített .NET keretrendszertől és a rendszermeghajtód betűjelétől)</span></p>
+<p>&nbsp;</p>
+<p class="ps2"><span class="ts1">Tegyünk is vele egy próbát!</span></p>
+<p class="ps2"><span class="ts1">&nbsp;</span></p>
+<p class="ps4"><span style="font-family: Tahoma; font-size: 10pt; color: Black">1.</span><span style="display: inline-block; width: 13px"></span><span class="ts1">Indítsd el a parancssort rendszergazda jogosultsággal! (start menü -&gt; cmd)</span></p>
+<p class="ps6"><span style="font-family: Tahoma; font-size: 10pt; color: Black">2.</span><span style="display: inline-block; width: 13px"></span><span class="ts4">Gépeld be az alábbi parancsot: </span><span class="ts6">setx path &quot;%path%;C:\Windows\Microsoft.NET\Framework\v4.0.30319\&quot;</span></p>
+<p class="ps4"><span style="font-family: Tahoma; font-size: 10pt; color: Black">3.</span><span style="display: inline-block; width: 13px"></span><span class="ts1">Innentől bármelyik mappában is vagy, a csc parancs beírásával fordíthatod a kódjaidat</span></p>
+<p class="ps4"><span style="font-family: Tahoma; font-size: 10pt; color: Black">4.</span><span style="display: inline-block; width: 13px"></span><span class="ts1">Készíts egy tetszőleges mappát bárhol a számítógépen! (nálam: D:\teszt)</span></p>
+<p class="ps4"><span style="font-family: Tahoma; font-size: 10pt; color: Black">5.</span><span style="display: inline-block; width: 13px"></span><span class="ts1">Navigálj ide a parancssorral!</span></p>
+<p class="ps4"><span style="font-family: Tahoma; font-size: 10pt; color: Black">6.</span><span style="display: inline-block; width: 13px"></span><span class="ts1">Ehhez először írd be a meghajtó betűjelét (d:)</span></p>
+<p class="ps4"><span style="font-family: Tahoma; font-size: 10pt; color: Black">7.</span><span style="display: inline-block; width: 13px"></span><span class="ts1">Majd add ki a cd teszt parancsot!</span></p>
+<p class="ps4"><span style="font-family: Tahoma; font-size: 10pt; color: Black">8.</span><span style="display: inline-block; width: 13px"></span><span class="ts1">A mappában hozz létre egy first.txt fájlt az alábbi tartalommal!</span></p>
+<p>&nbsp;</p>
+<div align="center">
+  <table class="tbl1">
+    <tr class="row0">
+      <td class="cell0">
+        <p class="ps5"><span class="ts6">using System;</span></p>
+        <p class="ps5"><span class="ts6">namespace TestProject</span></p>
+        <p class="ps5"><span class="ts6">{</span></p>
+        <p class="ps5"><span class="ts6">&nbsp;&nbsp;&nbsp; class Program</span></p>
+        <p class="ps5"><span class="ts6">&nbsp;&nbsp;&nbsp; {</span></p>
+        <p class="ps5"><span class="ts6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; static void Main(string[] args)</span></p>
+        <p class="ps5"><span class="ts6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {</span></p>
+        <p class="ps5"><span class="ts6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; int a = int.Parse(Console.ReadLine());</span></p>
+        <p class="ps5"><span class="ts6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; int b = a * 10;</span></p>
+        <p class="ps5"><span class="ts6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Console.WriteLine(&quot;A beírt szám tízszerese: &quot; + b);</span></p>
+        <p class="ps5"><span class="ts6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Console.ReadLine();</span></p>
+        <p class="ps5"><span class="ts6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</span></p>
+        <p class="ps5"><span class="ts6">&nbsp;&nbsp;&nbsp; }</span></p>
+        <p class="ps5"><span class="ts6">} </span></p>
+      </td>
+    </tr>
+  </table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p class="ps4"><span style="font-family: Tahoma; font-size: 10pt; color: Black">1.</span><span style="display: inline-block; width: 13px"></span><span class="ts1">Add ki a parancssorban most a csc.exe first.txt utasítást!</span></p>
+<p class="ps4"><span style="font-family: Tahoma; font-size: 10pt; color: Black">2.</span><span style="display: inline-block; width: 13px"></span><span class="ts1">A mappában létrejött egy first.exe fájl</span></p>
+<p class="ps4"><span style="font-family: Tahoma; font-size: 10pt; color: Black">3.</span><span style="display: inline-block; width: 13px"></span><span class="ts1">Gratulálok! Ez az első lefordított programod!</span></p>
+<p class="ps4"><span style="font-family: Tahoma; font-size: 10pt; color: Black">4.</span><span style="display: inline-block; width: 13px"></span><span class="ts1">Indítsd el parancssorból a first.exe utasítással!</span></p>
+<p class="ps4"><span style="font-family: Tahoma; font-size: 10pt; color: Black">5.</span><span style="display: inline-block; width: 13px"></span><span class="ts1">Gépelj be egy számot, és megkapod a tíszeresét!</span></p>
+<p class="ps4"><span style="font-family: Tahoma; font-size: 10pt; color: Black">6.</span><span style="display: inline-block; width: 13px"></span><span class="ts1">A program enter leütése után véget ér</span></p>
+<p>&nbsp;</p>
+<p class="ps2"><span class="ts1">Nos, ez láthatóan egy kényelmetlen út...</span></p>
+<p class="ps2"><span class="ts1">Viszont fontos megjegyezni, hogy régebben így programozott mindenki. Szerencsére napjainkban már rendelkezésünkre állnak kiváló fejlesztői környezetek (IDE: Integrated Development Environment), amelyekkel az előbbi lépéseket teljes mértékben elkerülhetjük.</span></p>
+<p class="ps2"><span class="ts1">Az egyik legnépszerűbb IDE a C# fejlesztők körében a Microsoft Visual Studio, amelynek a kurzuson a 2019-es, Community verzióját fogjuk használni.</span></p>
+<p class="ps2"><span class="ts1">Pillanatokon belül megismerkedünk vele, ám nézzük meg röviden, hogy mit biztosít nekünk egy ilyen IDE:</span></p>
+<p class="ps4"><span style="font-size: 14pt; line-height: 0; vertical-align: middle; color: Black">&bull;</span><span style="display: inline-block; width: 18px"></span><span class="ts1">Grafikus szövegszerkesztő felületet</span></p>
+<p class="ps4"><span style="font-size: 14pt; line-height: 0; vertical-align: middle; color: Black">&bull;</span><span style="display: inline-block; width: 18px"></span><span class="ts1">Beépített fordítót és debuggert (hibakeresőt)</span></p>
+<p class="ps4"><span style="font-size: 14pt; line-height: 0; vertical-align: middle; color: Black">&bull;</span><span style="display: inline-block; width: 18px"></span><span class="ts1">Kód kiegészítéseket, színezéseket</span></p>
+<p class="ps4"><span style="font-size: 14pt; line-height: 0; vertical-align: middle; color: Black">&bull;</span><span style="display: inline-block; width: 18px"></span><span class="ts1">Szerkesztési időben hiba megjelölést</span></p>
+<p class="ps4"><span style="font-size: 14pt; line-height: 0; vertical-align: middle; color: Black">&bull;</span><span style="display: inline-block; width: 18px"></span><span class="ts1">És számos más igen hasznos dolgot!</span></p>
+<p class="ps2"><span class="ts1">&nbsp;</span></p>
+<p class="ps2"><span class="ts1">&nbsp;</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p class="ps2"><span class="ts1">&nbsp;</span></p>
+<div align="center">
+  <table class="tbl0">
+    <tr class="row0">
+      <td class="cell0">
+        <p><a href="idh-topic50.html" title="Programozási környezet"><img width="32" height="32" border="0" src="images/navigation%20links/previous%20bluetriangles32.png" /></a></p>
+      </td>
+      <td class="cell1">
+        <p>&nbsp;</p>
+      </td>
+      <td class="cell2">
+        <p class="ps3"><a href="idh-topic60.html" title="Office 365 account készítés"><img width="32" height="32" border="0" src="images/navigation%20links/next%20bluetriangles32.png" /></a></p>
+      </td>
+    </tr>
+  </table>
+</div>
+<p class="ps2"><span class="ts1">&nbsp;</span></p>
+<p>&nbsp;</p>
+</body>
+</html>
