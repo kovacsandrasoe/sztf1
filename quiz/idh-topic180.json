@@ -13,7 +13,7 @@
         },
   {
             "question"      :   "Melyik tömb indexelés hibás egy 10 elemű tömbön?",
-            "image"         :   "",
+            "image"         :   "/sztf1/quiz/aaa.PNG",
             "choices"       :   [
                                     "tomb[5+4]",
                                     "tomb[0]",
