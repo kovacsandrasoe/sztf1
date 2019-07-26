@@ -29,10 +29,10 @@
   font-weight: normal;
 }
 #popup-box .close-icon {
-  background-image: url('closeicon.png?56638fc8');
+  background-image: url('closeicon.png?8e678264');
 }
 #popup-box .topicdoc-icon {
-  background: url('docicon.png?56638fc8') no-repeat center center;
+  background: url('docicon.png?8e678264') no-repeat center center;
 }
 #sorting-popup-menu {
   background-color: White;
@@ -58,13 +58,13 @@
   font-weight: normal;
 }
 #sorting-popup-menu li.menu-item.menu-item-checked span:after {
-  background: url('checkmark.png?56638fc8') no-repeat 0 0;
+  background: url('checkmark.png?8e678264') no-repeat 0 0;
 }
 #sorting-popup-menu li.menu-item.menu-item-checked.menu-item-hover span:after {
-  background: url('checkmark.png?56638fc8') no-repeat 0 -8px;
+  background: url('checkmark.png?8e678264') no-repeat 0 -8px;
 }
 #sort-control span.caret {
-  background: url('caret.png?56638fc8') no-repeat 0 0;
+  background: url('caret.png?8e678264') no-repeat 0 0;
 }
 #toc-tree ul.dynatree-container a {
   font-family: 'Trebuchet MS',Tahoma,Verdana,Arial,sans-serif;
@@ -174,7 +174,7 @@
   font-weight: normal;
 }
 #tabs .ui-tabs-panel {
-  background: url('tab-content.png?56638fc8') repeat-x center top #eee;
+  background: url('tab-content.png?8e678264') repeat-x center top #eee;
 }
 .text-label {
   font-family: 'Trebuchet MS',Tahoma,Verdana,Arial,sans-serif;
@@ -208,7 +208,7 @@
   padding: 6px 6px;
 }
 #tabs .ui-widget-header .ui-state-default {
-  background: url('tab-regular.png?56638fc8') repeat-x center center #f6f6f6;
+  background: url('tab-regular.png?8e678264') repeat-x center center #f6f6f6;
   border-color: #ccc;
 }
 #tabs .ui-widget-header .ui-state-hover {
