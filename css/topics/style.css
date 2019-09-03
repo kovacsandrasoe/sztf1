@@ -19,36 +19,13 @@ map > area {
 }
 .ts0 {
   font-family: Tahoma;
-  font-size: 34pt;
+  font-size: 16pt;
   font-weight: bold;
-  color: #9983b4;
 }
 .ts1 {
   font-family: Tahoma;
 }
 .ts2 {
-  font-family: Tahoma;
-  font-size: 17pt;
-  font-weight: bold;
-  color: #9983b4;
-}
-.ts3 {
-  font-family: Tahoma;
-  font-size: 16pt;
-  font-weight: bold;
-}
-.ts4 {
-  font-family: Tahoma;
-  font-size: 11pt;
-}
-.ts5 {
-  font-family: 'Courier New';
-  color: #00b050;
-}
-.ts6 {
-  font-family: 'Courier New';
-}
-.ts7 {
   font-family: Tahoma;
   color: White;
 }
@@ -59,30 +36,22 @@ map > area {
   color: Blue;
 }
 .ps0 {
-  text-align: center;
+  font-size: 11pt;
 }
 .ps1 {
-  text-align: center;
-  font-size: 11pt;
+  text-align: right;
 }
 .ps2 {
-  font-size: 11pt;
+  text-align: center;
 }
 .ps3 {
-  text-align: right;
+  text-align: center;
+  font-size: 11pt;
 }
 .ps4 {
   padding-left: 1.27cm;
   text-indent: -0.64cm;
   font-size: 11pt;
-}
-.ps5 {
-  font-size: 10pt;
-}
-.ps6 {
-  padding-left: 1.27cm;
-  text-indent: -0.64cm;
-  font-size: 10pt;
 }
 .tbl0 {
   border-collapse: collapse;
@@ -115,6 +84,7 @@ map > area {
   width: 100%;
   border-collapse: collapse;
   border-style: none;
+  background-color: #388194;
 }
 .tbl1 > tbody > tr.row0 {
   border-style: none;
@@ -129,7 +99,6 @@ map > area {
   width: 100%;
   border-collapse: collapse;
   border-style: none;
-  background-color: #388194;
 }
 .tbl2 > tbody > tr.row0 {
   border-style: none;

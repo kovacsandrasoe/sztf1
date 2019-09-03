@@ -2,7 +2,7 @@
 	highlightSearchWords : true,
 	highlightSearchWordsSingleColor : false,
 	tocOnlyExpandSingleHeading : false,
-	tocAutoExpandOnActivate : false,
+	tocAutoExpandOnActivate : true,
 	tocAtimateExpandingCollapsingDuration : 50,
 	indexFile : 'index.html'
 }
